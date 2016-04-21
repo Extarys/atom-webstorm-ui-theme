@@ -14,3 +14,53 @@
 @import "styles/tabs";
 @import "styles/tooltips";
 @import "styles/tree-view";
+
+// Wallaby
+
+.wallaby-panel-view .wallaby-panel-view-container .wallaby-panel-view-content {
+  background-color: white;
+}
+
+// atom-panel, .tool-panel {
+//   background-color: white;
+// }
+
+atom-panel.panel-left.tool-panel {
+  background-color: white;
+  border-top: 1px solid #c5c5c5;
+}
+
+// Header
+.wallaby-panel-view .wallaby-panel-view-container .wallaby-panel-view-header {
+  padding: 0px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e2e2e2),to(#dadada));
+  height: 22px;
+  border-bottom: 1px solid #959595;
+  // border-top: 1px solid #ededed;
+  box-sizing:content-box;
+  
+  > .header-item {
+    margin: 0;
+    .btn {
+      height: 22px;
+      line-height: 22px;
+      border-radius: 0;
+    }
+  }
+  
+  > .header-item.description, .header-item.subtle-info-message {
+    display: inline-block;
+    // padding: 10px;
+  }
+  
+}
+
+.wallaby-panel-view .wallaby-panel-view-container {
+  padding: 0px;
+}
+
+//
+
+atom-workspace {
+  border-top: #c7c7c7;
+}
