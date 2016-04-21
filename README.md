@@ -1,10 +1,12 @@
-# JetBrains WebStorm Default Light UI Theme
+# JetBrains WebStorm Default Light UI Theme for Atom
 
 > A port of the default UI theme for JetBrains' Webstorm/IntelliJ IDE.
 
 For those who are homesick after leaving JetBrains IDEs :)
 
 ## Usage
+
+Select `Atom Webstorm` in `Settings > Themes > UI Theme`.
 
 ## Core
 
